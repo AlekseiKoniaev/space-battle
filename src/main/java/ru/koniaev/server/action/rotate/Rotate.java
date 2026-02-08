@@ -1,8 +1,8 @@
 package ru.koniaev.server.action.rotate;
 
-import ru.koniaev.server.action.ICommand;
+import ru.koniaev.server.action.IAction;
 
-public class Rotate implements ICommand {
+public class Rotate implements IAction {
 	private final Rotable rotable;
 
 	public Rotate(Rotable rotable) {
