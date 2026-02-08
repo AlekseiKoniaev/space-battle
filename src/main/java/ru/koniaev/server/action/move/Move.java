@@ -1,8 +1,8 @@
 package ru.koniaev.server.action.move;
 
-import ru.koniaev.server.action.ICommand;
+import ru.koniaev.server.action.IAction;
 
-public class Move implements ICommand {
+public class Move implements IAction {
 	private final Movable movable;
 
 	public Move(Movable movable) {

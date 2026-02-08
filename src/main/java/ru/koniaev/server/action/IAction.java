@@ -1,5 +1,5 @@
 package ru.koniaev.server.action;
 
-public interface ICommand {
+public interface IAction {
 	void execute();
 }
